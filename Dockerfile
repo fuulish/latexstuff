@@ -3,7 +3,7 @@ FROM debian:testing
 
 #RUN apt-get update && apt-get install -my texlive-full git latexdiff
 
-RUN apt-get update && apt-get install -my texlive git python wget perl
+RUN apt-get update && apt-get install -my texlive git python wget perl xzdec
 RUN tlmgr init-usertree ; exit 0
 RUN tlmgr update --all && tlmgr install texliveonfly
 
