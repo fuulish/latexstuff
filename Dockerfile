@@ -3,7 +3,7 @@ FROM debian:testing
 
 #RUN apt-get update && apt-get install -my texlive-full git latexdiff
 
-RUN apt-get update && apt-get install -my texlive texlive-extra-utils git python wget perl xzdec make asciidoc
+RUN apt-get update && apt-get install -my texlive texlive-extra-utils git python wget perl xzdec make asciidoc latexdiff
 
 #RUN tlmgr init-usertree ; exit 0
 #RUN tlmgr update --all && tlmgr install texliveonfly
